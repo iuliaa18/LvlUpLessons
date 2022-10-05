@@ -1,8 +1,8 @@
 a = int(input("Введите число:"))
 b = int(input("Введите число:"))
-c = a + b
-print(c)
-d = a - b
-print(d)
-e = a * b
-print(e)
+if a < b:
+    print(a)
+elif a > b:
+    print(b)
+else:
+    print("Все равно")
